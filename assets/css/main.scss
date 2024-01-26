@@ -1,0 +1,54 @@
+body{
+  background-color: $main-bg-color;
+}
+
+.main_app_header{
+  .dropdown{
+    .dropdown-toggle {
+      background-color: $white-color !important;
+      color: $titles-color;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      &:focus{
+        box-shadow: none;
+      }
+    }
+  }
+  .dropdown-menu{
+    min-width: 5rem;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    .dropdown-item{
+      padding: 8px;
+      text-align: center;
+      &:hover{
+        background-color: $second-color;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+// Toast Notification Style
+.toasted {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08) !important;
+  border-radius: 8px !important;
+  position: relative;
+  margin-top: 0 !important;
+  transition: all 0.25s ease-out;
+  width: fit-content !important;
+
+}
+.toasted-container.top-right {
+  top: 1.5% !important;
+  right: 1.5% !important;
+}
+
+// Validation Error Style
+.validation_error {
+  color: $warning-color;
+  display: block;
+
+}

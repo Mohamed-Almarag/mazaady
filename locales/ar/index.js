@@ -1,0 +1,15 @@
+export default {
+  categories: "الفئات",
+  "Your choices": "اختياراتك",
+  "Main Categories": "الفئات الرئيسية",
+  "Select category": "Select category",
+  "sub category": "sub category",
+  "Select a sub category": "Select a sub category",
+  "Please select main category": "Please select a main category first.",
+  "sub category type":"sub category type",
+  "Select sub category type":"Select a sub category type",
+  "Other option":"Other option",
+  "Select option":"Select option",
+  "Type your other option":"Type your other option",
+  "Submit":"Submit",
+}

@@ -1,0 +1,25 @@
+:root {
+  --main-color: #D20653;
+  --second-color: #FF951D;
+  --white-color: #fff;
+  --titles-color: #333333;
+  --text-color: #828282;
+  --tags-color: #FFF5E9;
+  --border-color: #E0E0E0;
+  --main-bg-color: #f6f4f5;
+  --gradient-color: linear-gradient(90deg, #D20653 0%, #FF951D 100%);
+  --warning-color: #C31C26;
+}
+
+
+
+$main-color: var(--main-color);
+$second-color: var(--second-color);
+$white-color: var(--white-color);
+$titles-color: var(--titles-color);
+$text-color: var(--text-color);
+$tags-color: var(--tags-color);
+$border-color: var(--border-color);
+$main-bg-color: var(--main-bg-color);
+$gradient-color: var(--gradient-color);
+$warning-color: var(--warning-color);

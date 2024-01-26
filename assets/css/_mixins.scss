@@ -1,0 +1,35 @@
+// Function to convert pixels to rem
+@function pxToRem($pxValue) {
+  $remValue: calc($pxValue / 16);
+  @return #{$remValue}rem;
+}
+
+
+
+// For numbers line in any text or description etc...
+@mixin textLinesNumber($lineNumbers){
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: $lineNumbers;
+  text-overflow: ellipsis;
+}
+
+
+@mixin customTag($radius: 15px){
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: $radius;
+  background-color: $tags-color;
+  color: $second-color;
+  padding: 5px;
+}
+
+// For Style Text  => Font Properties & color
+@mixin customFontProperties($fontSize: 1rem, $fontWeight: normal, $lineHeight: 1.2){
+  font-size: pxToRem($fontSize);
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+}
